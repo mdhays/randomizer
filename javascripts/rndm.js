@@ -3,12 +3,14 @@ var chosenNumber;
 var randomNumber;
 
 function numberSelected() {
+  
   chosenNumber = document.getElementById('numbers-in').value;
   console.log(chosenNumber);
 
   userNumber = document.getElementById('chose-a-number').innerHTML = "You're choosing between " +chosenNumber +
-  " outcome(s).";
-  
+  " outcome(s)." + "Please note that ranges start at 0.";
+
+
   return chosenNumber;
 }
 
