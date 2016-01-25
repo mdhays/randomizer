@@ -1,0 +1,21 @@
+body {
+  background-color: black;
+  
+}
+
+h4 {
+  color: #196D9C;
+}
+
+h1 {
+  color: #F5F8E5;
+}
+
+#hold-me {
+  padding-top: 200px;
+}
+
+#choose {
+  margin-top: 30px;
+  margin-left: 150px;
+}
