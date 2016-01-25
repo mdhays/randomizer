@@ -4,10 +4,14 @@ body {
 }
 
 h4 {
+  text-align: center;
+  margin: auto;
   color: #196D9C;
 }
 
 h1 {
+  text-align: center;
+  margin: auto;
   color: #F5F8E5;
 }
 
@@ -15,7 +19,11 @@ h1 {
   padding-top: 200px;
 }
 
-#choose {
-  margin-top: 30px;
-  margin-left: 150px;
+button {
+  text-align: center;
+  margin-left: 400px;
+}
+
+input {
+  margin-left: 400px;
 }

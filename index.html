@@ -5,39 +5,34 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="/lib/node_modules/bootstrap/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="/styles/rndm.css">
+  <link rel="stylesheet" type="text/css" href="./styles/rndm.css">
   
   <title> Fate Decider </title>
 </head>
 
 <body>
+
+  <div id="main">
+    <h1> Welcome to Fate Decider </h1>
+    <h4 id="chose-a-number"></h4>
+    <button id="choose" type="button" class="btn btn-primary" onclick="getRandomNumber()"> Choose your fate </button>
+  </div>
+
   <div class="photo"></div>
-  <div class="container"> 
-    <div class="row"> 
       <!-- This column is there as empty space for now. I may use it for something later on. -->
-      <div class="col-md-3">
         <div id ="hold-me">
           <h4> Pick a number between 2 and 100,000. </h4>
           <input type="number" name="numbers" min="1" max="100000" id="numbers-in"> 
-          <button type="button" class="btn btn-primary" onclick="numberSelected()"> Select 
+          </br>
+          <button type="button" class="btn" onclick="numberSelected()"> Select 
           </button>
-        </div>  
       </div>
 
-      <div class="col-md-9">
-        <div id="main">
-          <h1> Welcome to Fate Decider </h1>
-          <h4 id="chose-a-number"></h4>
-          <button id="choose" type="button" class="btn btn-primary" onclick="getRandomNumber()"> Choose your fate </button>
-        </div>
-      </div>
-
+      
+        
 
     </div>
   </div> <!-- end of container -->
-  <script src="/lib/node_modules/jquery/dist/jquery.min.js"></script>
-  <script src="/lib/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-  <script src="/javascripts/rndm.js"></script>
+  <script src="./javascripts/rndm.js"></script>
 </body>
 </html>
