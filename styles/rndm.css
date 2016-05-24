@@ -1,21 +1,20 @@
-body {
-  background-color: black;
-  
-}
-
-h4 {
-  color: #196D9C;
+#main {
+  width: 50%;
+  margin: 0 auto;
 }
 
 h1 {
-  color: #F5F8E5;
+  width: 50%;
+  margin: auto;
 }
 
-#hold-me {
-  padding-top: 200px;
+h4 {
+  width: 30%;
+  margin: 0 auto;
+  padding-top: 20px;
 }
 
-#choose {
-  margin-top: 30px;
-  margin-left: 150px;
+#numbers-in {
+  margin: 0 auto;
+  padding-left: auto;
 }
